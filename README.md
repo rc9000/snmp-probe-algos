@@ -1,6 +1,6 @@
 # snmp-probe-algos
 
-Probe which SNMPv3 authentication and privacy protocol names your local Net-SNMP has compiled in.
+Probe which SNMPv3 authentication and privacy protocol names your local Net-SNMP (which provides snmpwalk, snmpget and so on, as well as the dynamic library most SNMP tools link against) has compiled in.
 The actual test is just trying to start snmpget with the respective `-a` or `-x` flag. Default mode fetches candidate names and aliases from the official Net-SNMP master branch source code. 
 
 
