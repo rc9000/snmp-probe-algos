@@ -1,7 +1,9 @@
 # snmp-probe-algos
 
 Probe which SNMPv3 authentication and privacy protocol names your local Net-SNMP has compiled in.
-Default mode fetches candidate names and aliases from the official Net-SNMP master branch.
+The actual test is just trying to start snmpget with the respective `-a` or `-x` flag. Default mode fetches candidate names and aliases from the official Net-SNMP master branch source code. 
+
+
 
 ## Ubuntu 22.04 LTS example
 ```
